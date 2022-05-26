@@ -7,6 +7,7 @@
  
 addContent.onclick = () => {
 	let url = "/api/v1/todo";
+	
 	let option = {
 		method = "POST",
 		headers = {
@@ -22,13 +23,11 @@ addContent.onclick = () => {
 		if(response.ok){
 			return response.json();
 		}else{
-			throw new Error("비동기 처리 오류")
+			throw new Error("처리 오류")
 		}
 	})
-	.then(data => {location.reload();
-	});
-	
-	
+	.then(result => console.log(result))
+	.catch(error => console.log(error));
 }	
 	
 	

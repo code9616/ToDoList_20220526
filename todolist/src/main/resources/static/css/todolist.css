@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.todolist{
+	    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+
+    border: 1px solid #ccc;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: deeppink;
+}
+
+.add-content{
+	width: 100%;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	width: 500px;
+	height: 400px;
+	border: 1px solid #ccc;
+	fontsize: 15px;
+}
+
+.study{
+	width: 100%;
+}
+
+.study-list{
+	width: 100%;
+}

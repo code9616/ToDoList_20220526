@@ -3,28 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/static/css/style.css">
+<link rel="stylesheet" href="/static/css/todolist.css">
 <script src="https://kit.fontawesome.com/fd2cb129fe.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="container">
 		<div class="todolist">
-			<h1>ToDoList</h1>
+			<div class="header">			
+				<h1>ToDoList</h1>
+			</div>
 		</div>
 		<div class="add-content">
-			<input type="text">
+			<input type="text" class="add-todo" name="todolist">
 			<button><i class="fa-solid fa-plus"></i></button>
 		</div>
-		<div class="study-list">
-			<ul>
-				<li>
-					<span>springboot 공부하기</span>
-					<input type="checkbox">
-					<button>수정</button>
-					<button><i class="fa-solid fa-trash-can"></i></button>
-				</li>
-			</ul>
+		<div class="study">
+			<div class="study-list">
+				<span>springboot 공부하기</span>
+				<input type="checkbox">
+				<button>수정</button>
+				<button><i class="fa-solid fa-trash-can"></i></button>
+			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="/static/js/todolist.js"></script>
 </body>
 </html>

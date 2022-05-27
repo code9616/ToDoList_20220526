@@ -24,3 +24,6 @@ spring:
       static-locations:
       - classpath:/static/
       add-mappings: true
+mybatis:
+  mapper-locations:
+  - /mappers/*.xml

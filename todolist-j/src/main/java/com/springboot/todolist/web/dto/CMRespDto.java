@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class CMRespDto {
-	private int id;
-	private int usercode;
-	private String content;
+public class CMRespDto<T> {
+	private int code;
+	private String msg;
+	private T data;
 }

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+.c-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.c-main-title h1 {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.c-add-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid #dbdbdb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 500px;
+}
+
+.b-add-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.c-content-list>ul {
+    width: 100%;
+}
+
+.l-content-list {
+    display: flex;
+    align-items: center;
+}
+
+.l-content-list>input {
+    margin-right: 20px;
+}
+
+.ip-add-content {
+    width: 375px;
+    margin-right: 10px;
+    border-bottom: 2px solid white;
+    padding: 5px 10px 0px;
+    background-color: #fafafa;
+}
+
+.ip-add-content:focus {
+    border-bottom: 2px solid rgb(143, 143, 143);
+}
+
+.btn-add-content {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(191, 237, 255);
+    cursor: pointer;
+}
+
+.btn-add-content:hover {
+    background-color: rgb(208, 216, 224);
+}
+
+.c-content-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid #dbdbdb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 500px;
+}
+
+.l-content-list>div {
+	margin-bottom: 5px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.text-content {
+    display: block;
+    width: 345px;
+}
+
+.input-content {
+    border-bottom: 2px solid white;
+    padding: 5px 10px 5px;
+    width: 345px;
+    background-color: #fafafa;
+}
+
+.input-content:focus {
+    border-bottom: 2px solid rgb(143, 143, 143);
+}
+
+.content-modifi-item {
+    display: flex;
+    align-items: center;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bc-modifi:hover {
+    background-color: rgb(255, 217, 78);
+}
+
+.bc-delete:hover {
+    background-color: rgb(255, 111, 78);
+}
+
+.bc-submit:hover {
+    background-color: rgb(185, 255, 131);
+}
+
+.bc-cancle:hover {
+    background-color: rgb(78, 205, 255);
+}

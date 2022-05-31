@@ -1,0 +1,67 @@
+/*
+	c : container
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans KR',
+		sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+i {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.item-invisible {
+	display: none !important;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 30px auto;
+	width: 600px;
+}
+
+.c-t-margin1 {
+	margin-top: 10px;
+}
+
+.c-t-margin2 {
+	margin-top: 20px;
+}
+
+.c-t-margin3 {
+	margin-top: 30px;
+}
+
+.c-t-margin4 {
+	margin-top: 40px;
+}
+
+.c-b-margin1 {
+	margin-bottom: 10px;
+}
+
+.c-b-margin2 {
+	margin-bottom: 20px;
+}
+
+.c-b-margin3 {
+	margin-bottom: 30px;
+}
+
+.c-b-margin4 {
+	margin-bottom: 40px;
+}
